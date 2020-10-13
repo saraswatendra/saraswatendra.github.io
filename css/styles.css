@@ -10132,4 +10132,29 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
+  /* CSS for scroll to top */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #bd5d38 ;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 19px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
 }
