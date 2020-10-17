@@ -10166,7 +10166,7 @@ html {
 }
 
 input[type=text],
-select,
+select,[type=email],
 textarea {
   width: 90%;
   padding: 12px;
