@@ -78,7 +78,7 @@ synopsis for high-level overviews.">
         input[type=text],
         select,
         textarea {
-            width: 100%;
+            width: 90%;
             padding: 12px;
             border: 1px solid #ccc;
             border-radius: 4px;
@@ -86,12 +86,12 @@ synopsis for high-level overviews.">
         }
 
         label {
-            padding: 12px 12px 12px 0;
+            padding: 12px 12px 12px 35%;
             display: inline-block;
         }
 
         input[type=submit] {
-            background-color: #bd4521e0;
+            background-color: #bd5d38;
             color: white;
             padding: 12px 20px;
             border: none;
@@ -500,57 +500,63 @@ synopsis for high-level overviews.">
         <hr class="m-0" />
         <!-- --Contact-- -->
         <section class="resume-section" id="contact">
-            <div class="container">
-                <form action="https://formspree.io/f/xknpjaow" method="POST">
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="fname">First Name</label>
+            <div class="resume-section-content">
+                <h2 class="mb-5">Contact Form</h2>
+                <div class="container">
+                    <form action="https://formspree.io/f/xknpjaow" method="POST">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
                         </div>
-                        <div class="col-75">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="lname">Email</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="email" name="_replyto" placeholder="Your email..">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="email" name="_replyto" placeholder="Your email..">
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="country">Country</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="country" name="lastname" placeholder="Your country..">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="subject">Subject</label>
-                        </div>
-                        <div class="col-75">
-                            <textarea id="subject" name="subject" placeholder="Write something.."
-                                style="height:200px"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="country">Attachment</label>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Country</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="country" name="lastname" placeholder="Your country..">
+                            </div>
                         </div>
 
-                        <div class="col-75">
-                            <input type="file" name="upload">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write something.."
+                                    style="height:200px"></textarea>
+                            </div>
                         </div>
-                    </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Attachment</label>
+                            </div>
 
-                    <div class="row">
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
+                            <div class="col-75">
+                                <input type="file" style="margin-top: 6px" id="upload" name="upload">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-75">
+                                <input type="submit" value="Submit">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
 
