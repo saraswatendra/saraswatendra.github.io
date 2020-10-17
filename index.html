@@ -91,7 +91,7 @@ synopsis for high-level overviews.">
         }
 
         input[type=submit] {
-            background-color: #4CAF50;
+            background-color: #bd4521e0;
             color: white;
             padding: 12px 20px;
             border: none;
@@ -514,7 +514,7 @@ synopsis for high-level overviews.">
                             <label for="lname">Email</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" name="_replyto" placeholder="Your email..">
+                            <input type="text" id="email" name="_replyto" placeholder="Your email..">
 
                         </div>
                     </div>
@@ -523,17 +523,10 @@ synopsis for high-level overviews.">
                             <label for="country">Country</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="lname" name="lastname" placeholder="Your country..">
+                            <input type="text" id="country" name="lastname" placeholder="Your country..">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="country">File</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="file" name="upload">
-                        </div>
-                    </div>
+
                     <div class="row">
                         <div class="col-25">
                             <label for="subject">Subject</label>
@@ -543,6 +536,16 @@ synopsis for high-level overviews.">
                                 style="height:200px"></textarea>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">File</label>
+                        </div>
+
+                        <div class="col-75">
+                            <input type="file" name="upload">
+                        </div>
+                    </div>
+
                     <div class="row">
                         <input type="submit" value="Submit">
                     </div>
